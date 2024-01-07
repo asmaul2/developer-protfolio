@@ -91,6 +91,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+}
 
 /*about section jstyle*/
 .about {
@@ -116,4 +119,43 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
+}
+#what-i-do {
+  padding: 30px 145px;
+  color: var(--Dark-03, #757575);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.skill-container {
+  display: flex;
+}
+.skill {
+  padding: 30px;
+  gap: 24px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title {
+  color: var(--Dark-01, #181818);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+/* resume style*/
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
